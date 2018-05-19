@@ -39,16 +39,6 @@
           }
         ]
       }
-    },
-    "gravel": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:gravel"
-          }
-        ]
-      }
     }
   }
 }

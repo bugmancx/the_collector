@@ -5,7 +5,7 @@
       "item": "minecraft:dirt"
     },
     "title": "Dirty Work",
-    "description": "Collect all the different dirt types!",
+    "description": "Collect all the different dirt and gravel types!",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
@@ -41,12 +41,32 @@
         ]
       }
     },
+    "grass_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mycelium"
+          }
+        ]
+      }
+    },
     "coarse_dirt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:coarse_dirt"
+          }
+        ]
+      }
+    },
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gravel"
           }
         ]
       }
