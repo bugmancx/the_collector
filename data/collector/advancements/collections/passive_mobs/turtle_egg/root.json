@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/passive_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_egg"
+    },
+    "title": "Turtle Power!",
+    "description": "Collect a turtle egg!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "turtle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:turtle_egg"
+          }
+        ]
+      }
+    }
+  }
+}

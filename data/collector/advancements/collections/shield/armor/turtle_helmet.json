@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/shield/armor/diamond_armor",
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "title": "Turtle Defence!",
+    "description": "Collect the turtle helmet!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "turtle_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:turtle_helmet"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "parent": "collector:collections/ground/cobblestone/stone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "It's a stone's throw away!",
+    "description": "Craft and collect all the stone items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "stone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_slab"
+          }
+        ]
+      }
+    },
+    "stone_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_brick_slab"
+          }
+        ]
+      }
+    },
+    "chiseled_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chiseled_stone_bricks"
+          }
+        ]
+      }
+    },
+    "stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_bricks"
+          }
+        ]
+      }
+    },
+    "mossy_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_stone_bricks"
+          }
+        ]
+      }
+    },
+    "cracked_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cracked_stone_bricks"
+          }
+        ]
+      }
+    },
+    "stone_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_brick_stairs"
+          }
+        ]
+      }
+    }
+  }
+}

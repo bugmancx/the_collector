@@ -1,0 +1,94 @@
+{
+  "parent": "collector:collections/quartz/prismarine/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack"
+    },
+    "title": "Things you Nether knew!",
+    "description": "Collect all the block types derived from the Nether",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherrack"
+          }
+        ]
+      }
+    },
+    "nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_bricks"
+          }
+        ]
+      }
+    },
+    "nether_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_brick"
+          }
+        ]
+      }
+    },
+    "nether_brick_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_brick_fence"
+          }
+        ]
+      }
+    },
+    "red_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_nether_bricks"
+          }
+        ]
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glowstone"
+          }
+        ]
+      }
+    },
+    "nether_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_wart_block"
+          }
+        ]
+      }
+    },
+    "magma_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magma_block"
+          }
+        ]
+      }
+    }
+  }
+}

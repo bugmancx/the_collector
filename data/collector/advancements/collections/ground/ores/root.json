@@ -1,0 +1,95 @@
+{
+  "parent": "collector:collections/ground/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_ore"
+    },
+    "title": "To Ore Is Human",
+    "description": "Collect all the ore blocks",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+ "criteria": {
+    "redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone_ore"
+          }
+        ]
+      }
+    },
+    "lapis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_ore"
+          }
+        ]
+      }
+    },
+    "coal_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coal_ore"
+          }
+        ]
+      }
+    },
+    "nether_quartz_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore"
+          }
+        ]
+      }
+    },
+    "iron_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ore"
+          }
+        ]
+      }
+    },
+    "gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_ore"
+          }
+        ]
+      }
+    },
+    "emerald_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald_ore"
+          }
+        ]
+      }
+    },
+    "diamond_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_ore"
+          }
+        ]
+      }
+    }
+  }
+}

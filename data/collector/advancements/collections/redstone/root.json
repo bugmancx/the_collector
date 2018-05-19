@@ -1,0 +1,214 @@
+{
+  "parent": "collector:collections/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:comparator"
+    },
+    "title": "Master of Redstone!",
+    "description": "Collect every redstone item available!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "dispenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dispenser"
+          }
+        ]
+      }
+    },
+    "note_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:note_block"
+          }
+        ]
+      }
+    },
+    "sticky_piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sticky_piston"
+          }
+        ]
+      }
+    },
+    "piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:piston"
+          }
+        ]
+      }
+    },
+    "tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tnt"
+          }
+        ]
+      }
+    },
+    "stone_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_pressure_plate"
+          }
+        ]
+      }
+    },
+    "redstone_torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone_torch"
+          }
+        ]
+      }
+    },
+    "stone_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_button"
+          }
+        ]
+      }
+    },
+    "redstone_lamp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone_lamp"
+          }
+        ]
+      }
+    },
+    "tripwire_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tripwire_hook"
+          }
+        ]
+      }
+    },
+    "light_weighted_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_weighted_pressure_plate"
+          }
+        ]
+      }
+    },
+    "heavy_weighted_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+          }
+        ]
+      }
+    },
+    "daylight_detector": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:daylight_detector"
+          }
+        ]
+      }
+    },
+    "dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dropper"
+          }
+        ]
+      }
+    },
+    "iron_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_trapdoor"
+          }
+        ]
+      }
+    },
+    "observer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:observer"
+          }
+        ]
+      }
+    },
+    "iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_door"
+          }
+        ]
+      }
+    },
+    "repeater": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:repeater"
+          }
+        ]
+      }
+    },
+    "comparator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:comparator"
+          }
+        ]
+      }
+    },
+    "lever": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lever"
+          }
+        ]
+      }
+    }
+  }
+}

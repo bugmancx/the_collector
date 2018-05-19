@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/ground/clay/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:brick"
+    },
+    "title": "A Solid Brick Build!",
+    "description": "Collect everything made from bricks!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brick"
+          }
+        ]
+      }
+    },
+    "bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bricks"
+          }
+        ]
+      }
+    },
+    "bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bricks"
+          }
+        ]
+      }
+    },
+    "brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brick_slab"
+          }
+        ]
+      }
+    },
+    "brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brick_stairs"
+          }
+        ]
+      }
+    },
+    "flower_pot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:flower_pot"
+          }
+        ]
+      }
+    }
+  }
+}

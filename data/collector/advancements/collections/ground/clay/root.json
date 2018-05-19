@@ -1,0 +1,34 @@
+{
+  "parent": "collector:collections/ground/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:clay_ball"
+    },
+    "title": "I clay, I clay, I clay!",
+    "description": "Collect clay in its balls and blocks",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "clay_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay_ball"
+          }
+        ]
+      }
+    }
+  }
+}

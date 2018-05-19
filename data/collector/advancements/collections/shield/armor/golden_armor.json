@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/shield/armor/iron_armor",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "title": "Golden Protection!",
+    "description": "Collect all golden player armor!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_helmet"
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_leggings"
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_boots"
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_chestplate"
+          }
+        ]
+      }
+    }
+  }
+}

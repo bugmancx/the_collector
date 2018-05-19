@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/ground/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": "Cobbling things together!",
+    "description": "Collect all the items made from cobble",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone"
+          }
+        ]
+      }
+    },
+    "cobblestone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone_slab"
+          }
+        ]
+      }
+    },
+    "mossy_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_cobblestone"
+          }
+        ]
+      }
+    },
+    "cobblestone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone_stairs"
+          }
+        ]
+      }
+    },
+    "cobblestone_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone_wall"
+          }
+        ]
+      }
+    },
+    "mossy_cobblestone_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_cobblestone_wall"
+          }
+        ]
+      }
+    }
+  }
+}

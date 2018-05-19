@@ -1,0 +1,174 @@
+{
+  "parent": "collector:collections/dye/concrete_powder/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_concrete"
+    },
+    "title": "Powder your nose!",
+    "description": "Collect all the concrete powder colours!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "cyan_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_concrete"
+          }
+        ]
+      }
+    },
+    "pink_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_concrete"
+          }
+        ]
+      }
+    },
+    "red_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_concrete"
+          }
+        ]
+      }
+    },
+    "lime_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_concrete"
+          }
+        ]
+      }
+    },
+    "light_blue_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_concrete"
+          }
+        ]
+      }
+    },
+    "orange_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_concrete"
+          }
+        ]
+      }
+    },
+    "black_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_concrete"
+          }
+        ]
+      }
+    },
+    "blue_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_concrete"
+          }
+        ]
+      }
+    },
+    "purple_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_concrete"
+          }
+        ]
+      }
+    },
+    "magenta_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_concrete"
+          }
+        ]
+      }
+    },
+    "gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_concrete"
+          }
+        ]
+      }
+    },
+    "brown_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_concrete"
+          }
+        ]
+      }
+    },
+    "light_gray_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_concrete"
+          }
+        ]
+      }
+    },
+    "green_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_concrete"
+          }
+        ]
+      }
+    },
+    "white_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_concrete"
+          }
+        ]
+      }
+    },
+    "yellow_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_concrete"
+          }
+        ]
+      }
+    }
+  }
+ }

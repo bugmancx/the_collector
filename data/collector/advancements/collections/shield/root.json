@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:shield"
+    },
+    "title": "Defend Yourself!",
+    "description": "Collect a shield!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shield"
+          }
+        ]
+      }
+    }
+  }
+}

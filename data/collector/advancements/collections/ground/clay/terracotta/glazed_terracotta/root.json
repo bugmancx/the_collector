@@ -1,0 +1,174 @@
+{
+  "parent": "collector:collections/ground/clay/terracotta/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "title": "Isn't it A-Glazing!",
+    "description": "Collect all the glazed terracotta blocks",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "purple_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "lime_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "orange_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "pink_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "gray_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "black_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "magenta_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "green_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "blue_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "brown_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "red_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "light_gray_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "cyan_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "light_blue_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "yellow_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "white_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_glazed_terracotta"
+          }
+        ]
+      }
+    }
+  }
+}

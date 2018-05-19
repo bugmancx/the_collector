@@ -1,0 +1,144 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_11"
+    },
+    "title": "It's a new record!",
+    "description": "Complete your record collection and get a juke to play them in!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "music_disc_far": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_far"
+          }
+        ]
+      }
+    },
+    "music_disc_wait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_wait"
+          }
+        ]
+      }
+    },
+    "music_disc_strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_strad"
+          }
+        ]
+      }
+    },
+    "music_disc_mall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_mall"
+          }
+        ]
+      }
+    },
+    "music_disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_cat"
+          }
+        ]
+      }
+    },
+    "music_disc_mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_mellohi"
+          }
+        ]
+      }
+    },
+    "music_disc_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_13"
+          }
+        ]
+      }
+    },
+    "music_disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_11"
+          }
+        ]
+      }
+    },
+    "music_disc_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_blocks"
+          }
+        ]
+      }
+    },
+    "music_disc_stal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_stal"
+          }
+        ]
+      }
+    },
+    "music_disc_ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_ward"
+          }
+        ]
+      }
+    },
+    "music_disc_chirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:music_disc_chirp"
+          }
+        ]
+      }
+    },
+    "jukebox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jukebox"
+          }
+        ]
+      }
+    }
+  }
+}

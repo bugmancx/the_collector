@@ -1,0 +1,104 @@
+{
+  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_door"
+    },
+    "title": "Life's a birch!",
+    "description": "Craft and collect all birch wood items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "birch_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_door"
+          }
+        ]
+      }
+    },
+    "birch_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_slab"
+          }
+        ]
+      }
+    },
+    "birch_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_pressure_plate"
+          }
+        ]
+      }
+    },
+    "birch_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_fence"
+          }
+        ]
+      }
+    },
+    "birch_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_trapdoor"
+          }
+        ]
+      }
+    },
+    "birch_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_button"
+          }
+        ]
+      }
+    },
+    "birch_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_stairs"
+          }
+        ]
+      }
+    },
+    "birch_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_fence_gate"
+          }
+        ]
+      }
+    },
+    "birch_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_boat"
+          }
+        ]
+      }
+    }
+  }
+}

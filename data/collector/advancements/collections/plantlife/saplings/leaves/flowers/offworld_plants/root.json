@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/plantlife/saplings/leaves/flowers/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_wart"
+    },
+    "title": "Trans-dimensional Herbariums!",
+    "description": "Collect all the trans-dimensional plant species!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom"
+          }
+        ]
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom"
+          }
+        ]
+      }
+    },
+    "chorus_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chorus_flower"
+          }
+        ]
+      }
+    },
+    "nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_wart"
+          }
+        ]
+      }
+    }
+  }
+}

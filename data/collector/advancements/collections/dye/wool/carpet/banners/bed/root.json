@@ -1,0 +1,174 @@
+{
+  "parent": "collector:collections/dye/wool/carpet/banners/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_bed"
+    },
+    "title": "You'd bedder believe it!",
+    "description": "Collect all the different bed colours!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "white_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_bed"
+          }
+        ]
+      }
+    },
+    "light_blue_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_bed"
+          }
+        ]
+      }
+    },
+    "cyan_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_bed"
+          }
+        ]
+      }
+    },
+    "yellow_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_bed"
+          }
+        ]
+      }
+    },
+    "blue_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_bed"
+          }
+        ]
+      }
+    },
+    "brown_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_bed"
+          }
+        ]
+      }
+    },
+    "green_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_bed"
+          }
+        ]
+      }
+    },
+    "orange_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_bed"
+          }
+        ]
+      }
+    },
+    "gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_bed"
+          }
+        ]
+      }
+    },
+    "black_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_bed"
+          }
+        ]
+      }
+    },
+    "lime_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_bed"
+          }
+        ]
+      }
+    },
+    "red_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_bed"
+          }
+        ]
+      }
+    },
+    "light_gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_bed"
+          }
+        ]
+      }
+    },
+    "magenta_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_bed"
+          }
+        ]
+      }
+    },
+    "pink_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_bed"
+          }
+        ]
+      }
+    },
+    "purple_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_bed"
+          }
+        ]
+      }
+    }
+  }
+ }

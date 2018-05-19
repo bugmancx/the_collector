@@ -1,0 +1,65 @@
+{
+  "parent": "collector:collections/plantlife/sealife/coral_blocks/coral/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:horn_coral_fan"
+    },
+    "title": "Your Biggest Fan",
+    "description": "Collect all different coral fans",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+     "brain_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brain_coral_fan"
+          }
+        ]
+      }
+    },
+    "bubble_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bubble_coral_fan"
+          }
+        ]
+      }
+    },
+    "fire_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_coral_fan"
+          }
+        ]
+      }
+    },
+    "horn_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:horn_coral_fan"
+          }
+        ]
+      }
+    },
+    "tube_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tube_coral_fan"
+          }
+        ]
+      }
+    }
+  }
+}

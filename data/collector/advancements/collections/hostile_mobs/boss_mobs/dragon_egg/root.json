@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/hostile_mobs/boss_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_egg"
+    },
+    "title": "Dragon Nursery!",
+    "description": "Collect the dragon egg!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    }
+  }
+}

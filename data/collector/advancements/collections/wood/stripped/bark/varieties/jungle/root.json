@@ -1,0 +1,104 @@
+{
+  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_door"
+    },
+    "title": "Junglin' my items!",
+    "description": "Craft and collect all jungle wood items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "jungle_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_door"
+          }
+        ]
+      }
+    },
+    "jungle_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_slab"
+          }
+        ]
+      }
+    },
+    "jungle_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_pressure_plate"
+          }
+        ]
+      }
+    },
+    "jungle_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_fence"
+          }
+        ]
+      }
+    },
+    "jungle_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_trapdoor"
+          }
+        ]
+      }
+    },
+    "jungle_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_button"
+          }
+        ]
+      }
+    },
+    "jungle_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_stairs"
+          }
+        ]
+      }
+    },
+    "jungle_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_fence_gate"
+          }
+        ]
+      }
+    },
+    "jungle_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_boat"
+          }
+        ]
+      }
+    }
+  }
+}

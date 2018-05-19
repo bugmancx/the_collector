@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/passive_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": "Animal tamer!",
+    "description": "Collect all the tools needed to move your animals!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:saddle"
+          }
+        ]
+      }
+    },
+    "lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lead"
+          }
+        ]
+      }
+    },
+    "carrot_on_a_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:carrot_on_a_stick"
+          }
+        ]
+      }
+    }
+  }
+}

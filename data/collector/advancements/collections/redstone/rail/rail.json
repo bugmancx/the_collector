@@ -1,0 +1,64 @@
+{
+  "parent": "collector:collections/items/redstone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "title": "Rail Enthusiast!",
+    "description": "Collect all types of rail and a minecart to use with it!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rail"
+          }
+        ]
+      }
+    },
+    "powered_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:powered_rail"
+          }
+        ]
+      }
+    },
+    "activator_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:activator_rail"
+          }
+        ]
+      }
+    },
+    "piston": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:piston"
+          }
+        ]
+      }
+    },
+    "minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:minecart"
+          }
+        ]
+      }
+    }
+  }
+}

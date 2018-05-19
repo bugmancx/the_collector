@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": "The Collector!",
+    "description": "Collect all the items available in the game",
+    "background": "minecraft:textures/blocks/shulker_box_top.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "connect_to_server": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/wood/stripped/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_bark"
+    },
+    "title": "Barking Mad!",
+    "description": "Collect all bark types",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "oak_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_bark"
+          }
+        ]
+      }
+    },
+    "birch_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_bark"
+          }
+        ]
+      }
+    },
+    "acacia_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_bark"
+          }
+        ]
+      }
+    },
+    "dark_oak_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_bark"
+          }
+        ]
+      }
+    },
+    "spruce_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_bark"
+          }
+        ]
+      }
+    },
+    "jungle_bark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_bark"
+          }
+        ]
+      }
+    }
+  }
+}

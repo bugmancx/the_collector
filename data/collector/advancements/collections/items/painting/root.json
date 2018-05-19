@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:painting"
+    },
+    "title": "Picture Perfect!",
+    "description": "Collect decorative items, like a painting, item frame and an armor stand!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:painting"
+          }
+        ]
+      }
+    },
+    "item_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:item_frame"
+          }
+        ]
+      }
+    },
+    "armor_stand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:armor_stand"
+          }
+        ]
+      }
+    }
+  }
+}

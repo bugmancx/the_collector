@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/plantlife/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": "What a sap!",
+    "description": "Collect all the saplings",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+    "spruce_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_sapling"
+          }
+        ]
+      }
+    },
+    "birch_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    },
+    "jungle_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    },
+    "acacia_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    },
+    "dark_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Head Hunter!",
+    "description": "Collect all the vanilla skulls and heads!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "dragon_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_head"
+          }
+        ]
+      }
+    },
+   "skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:skeleton_skull"
+          }
+        ]
+      }
+    },
+   "wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+   "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:creeper_head"
+          }
+        ]
+      }
+    }
+  }
+}

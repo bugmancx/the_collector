@@ -1,0 +1,184 @@
+{
+  "parent": "collector:collections/ground/clay/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:terracotta"
+    },
+    "title": "Terra-fying!",
+    "description": "Collect all the terracotta blocks",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:terracotta"
+          }
+        ]
+      }
+    },
+    "brown_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_terracotta"
+          }
+        ]
+      }
+    },
+    "green_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_terracotta"
+          }
+        ]
+      }
+    },
+    "orange_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_terracotta"
+          }
+        ]
+      }
+    },
+    "light_blue_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_terracotta"
+          }
+        ]
+      }
+    },
+    "black_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_terracotta"
+          }
+        ]
+      }
+    },
+    "pink_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_terracotta"
+          }
+        ]
+      }
+    },
+    "magenta_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_terracotta"
+          }
+        ]
+      }
+    },
+    "gray_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_terracotta"
+          }
+        ]
+      }
+    },
+    "light_gray_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_terracotta"
+          }
+        ]
+      }
+    },
+    "blue_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_terracotta"
+          }
+        ]
+      }
+    },
+    "white_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_terracotta"
+          }
+        ]
+      }
+    },
+    "lime_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_terracotta"
+          }
+        ]
+      }
+    },
+    "yellow_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_terracotta"
+          }
+        ]
+      }
+    },
+    "red_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_terracotta"
+          }
+        ]
+      }
+    },
+    "purple_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_terracotta"
+          }
+        ]
+      }
+    },
+    "cyan_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_terracotta"
+          }
+        ]
+      }
+    }
+  }
+}

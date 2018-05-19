@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_ice"
+    },
+    "title": "It's cold out there!",
+    "description": "Collect all the snow and ice items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snow_block"
+          }
+        ]
+      }
+    },
+    "snow_layer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snow_layer"
+          }
+        ]
+      }
+    },
+    "snowball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snowball"
+          }
+        ]
+      }
+    },
+    "ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ice"
+          }
+        ]
+      }
+    },
+    "packed_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:packed_ice"
+          }
+        ]
+      }
+    },
+    "blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_ice"
+          }
+        ]
+      }
+    }
+  }
+}

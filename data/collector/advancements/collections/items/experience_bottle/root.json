@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": "A true trader!",
+    "description": "Collect the one item in the game available only from villager trading",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:experience_bottle"
+          }
+        ]
+      }
+    }
+  }
+}

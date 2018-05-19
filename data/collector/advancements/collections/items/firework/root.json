@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Playing With Fire",
+    "description": "Collect a firework rocket, fire charge and firework star",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "firework_rocket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:firework_rocket"
+          }
+        ]
+      }
+    },
+    "fire_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_charge"
+          }
+        ]
+      }
+    },
+    "firework_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:firework_star"
+          }
+        ]
+      }
+    }
+  }
+}

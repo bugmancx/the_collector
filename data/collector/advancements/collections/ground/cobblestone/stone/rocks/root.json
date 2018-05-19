@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/ground/cobblestone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diorite"
+    },
+    "title": "A Geologist at Heart",
+    "description": "Collect all the different varieties of overworld stone blocks",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite"
+          }
+        ]
+      }
+    },
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite"
+          }
+        ]
+      }
+    },
+    "andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite"
+          }
+        ]
+      }
+    },
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gravel"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/shield/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": "I Wooden Pick It!",
+    "description": "Collect all the wooden tools!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_pickaxe"
+          }
+        ]
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_shovel"
+          }
+        ]
+      }
+    },
+    "wooden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_axe"
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_hoe"
+          }
+        ]
+      }
+    }
+  }
+}

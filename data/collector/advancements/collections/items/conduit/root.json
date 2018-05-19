@@ -1,0 +1,34 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": "I conduit!",
+    "description": "Collect a conduit and a heart of the sea",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:conduit"
+          }
+        ]
+      }
+    }
+  },
+  "heart_of_the_sea": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "item": "minecraft:heart_of_the_sea"
+        }
+      ]
+    }
+  }
+}

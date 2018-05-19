@@ -1,0 +1,65 @@
+{
+  "parent": "collector:collections/plantlife/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "I sea it now!",
+    "description": "Collect all the ocean plant species, wet and dry",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+     "seagrass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:seagrass"
+          }
+        ]
+      }
+    },
+   "kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:kelp"
+          }
+        ]
+      }
+    },
+   "dried_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dried_kelp"
+          }
+        ]
+      }
+    },
+   "dried_kelp_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dried_kelp_block"
+          }
+        ]
+      }
+    },
+    "sea_pickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sea_pickle"
+          }
+        ]
+      }
+    }
+  }
+}

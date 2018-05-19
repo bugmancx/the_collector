@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/ground/cobblestone/stone/rocks/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_diorite"
+    },
+    "title": "Buff 'em up!",
+    "description": "Collected all polished stone variants",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "polished_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_diorite"
+          }
+        ]
+      }
+    },
+    "polished_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_granite"
+          }
+        ]
+      }
+    },
+    "polished_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_andesite"
+          }
+        ]
+      }
+    }
+  }
+}

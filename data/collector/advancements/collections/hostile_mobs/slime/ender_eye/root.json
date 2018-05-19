@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/hostile_mobs/slime/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": "Eye of the Beyolder!",
+    "description": "Collect an ender eye",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "ender_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ender_eye"
+          }
+        ]
+      }
+    }
+  }
+}

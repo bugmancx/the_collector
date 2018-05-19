@@ -1,0 +1,134 @@
+{
+  "parent": "collector:collections/quartz/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": "Monument Mementos!",
+    "description": "Collect all prismarine items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine"
+          }
+        ]
+      }
+    },
+    "prismarine_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_bricks"
+          }
+        ]
+      }
+    },
+    "dark_prismarine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_prismarine"
+          }
+        ]
+      }
+    },
+    "prismarine_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_stairs"
+          }
+        ]
+      }
+    },
+    "prismarine_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_brick_stairs"
+          }
+        ]
+      }
+    },
+    "dark_prismarine_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_prismarine_stairs"
+          }
+        ]
+      }
+    },
+    "prismarine_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_slab"
+          }
+        ]
+      }
+    },
+    "prismarine_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_brick_slab"
+          }
+        ]
+      }
+    },
+    "dark_prismarine_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_prismarine_slab"
+          }
+        ]
+      }
+    },
+    "prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          }
+        ]
+      }
+    },
+    "prismarine_crystals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_crystals"
+          }
+        ]
+      }
+    },
+    "sea_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sea_lantern"
+          }
+        ]
+      }
+    }
+  }
+}

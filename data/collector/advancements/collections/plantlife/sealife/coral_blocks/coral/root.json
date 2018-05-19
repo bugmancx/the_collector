@@ -1,0 +1,64 @@
+{
+  "parent": "collector:collections/plantlife/sealife/coral_blocks/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bubble_coral"
+    },
+    "title": "Corally Does It",
+    "description": "Collect all the different coral types",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tube_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tube_coral"
+          }
+        ]
+      }
+    },
+    "brain_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brain_coral"
+          }
+        ]
+      }
+    },
+    "bubble_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bubble_coral"
+          }
+        ]
+      }
+    },
+    "fire_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_coral"
+          }
+        ]
+      }
+    },
+    "horn_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:horn_coral"
+          }
+        ]
+      }
+    }
+  }
+}

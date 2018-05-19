@@ -1,0 +1,64 @@
+{
+  "parent": "collector:collections/plantlife/farmer/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_mushroom_block"
+    },
+    "title": "There's not mushroom in here!",
+    "description": "Collect mushrooms and mushroom blocks",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom"
+          }
+        ]
+      }
+    },
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom"
+          }
+        ]
+      }
+    },
+    "brown_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_mushroom_block"
+          }
+        ]
+      }
+    },
+    "red_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom_block"
+          }
+        ]
+      }
+    },
+    "mushroom_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mushroom_stem"
+          }
+        ]
+      }
+    }
+  }
+}

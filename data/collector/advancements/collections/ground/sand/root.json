@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/ground/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": "Like sands through the hourglass!",
+    "description": "Collect all sand types from every dimension!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sand"
+          }
+        ]
+      }
+    },
+    "red_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sand"
+          }
+        ]
+      }
+    },
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:soul_sand"
+          }
+        ]
+      }
+    }
+  }
+}

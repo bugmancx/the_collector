@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": "This is the Ender?",
+    "description": "Collect an ender chest",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ender_chest"
+          }
+        ]
+      }
+    }
+  }
+}

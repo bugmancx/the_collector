@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/passive_mobs/animal_tamer/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "title": "Horse Whisperer!",
+    "description": "Complete the collection of horse armor!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "diamond_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_horse_armor"
+          }
+        ]
+      }
+    },
+    "golden_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_horse_armor"
+          }
+        ]
+      }
+    },
+    "iron_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_horse_armor"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "collector:collections/hostile_mobs/boss_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:sponge"
+    },
+    "title": "From Wet To Dry!",
+    "description": "Collect both wet and dry sponge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sponge"
+          }
+        ]
+      }
+    },
+    "wet_sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wet_sponge"
+          }
+        ]
+      }
+    }
+  }
+}

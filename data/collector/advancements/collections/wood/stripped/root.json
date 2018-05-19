@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/wood/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "title": "Strip 'em off!",
+    "description": "Collect all stripped log types",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "stripped_spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_spruce_log"
+          }
+        ]
+      }
+    },
+    "stripped_birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_birch_log"
+          }
+        ]
+      }
+    },
+    "stripped_acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_acacia_log"
+          }
+        ]
+      }
+    },
+    "stripped_dark_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_dark_oak_log"
+          }
+        ]
+      }
+    },
+    "stripped_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_oak_log"
+          }
+        ]
+      }
+    },
+    "stripped_jungle_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_jungle_log"
+          }
+        ]
+      }
+    }
+  }
+}

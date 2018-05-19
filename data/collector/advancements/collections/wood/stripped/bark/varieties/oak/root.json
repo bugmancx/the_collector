@@ -1,0 +1,104 @@
+{
+  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_door"
+    },
+    "title": "Oakly the best for me!",
+    "description": "Craft and collect all oak wood items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "oak_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_door"
+          }
+        ]
+      }
+    },
+    "oak_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_slab"
+          }
+        ]
+      }
+    },
+    "oak_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_pressure_plate"
+          }
+        ]
+      }
+    },
+    "oak_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_fence"
+          }
+        ]
+      }
+    },
+    "oak_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_trapdoor"
+          }
+        ]
+      }
+    },
+    "oak_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_button"
+          }
+        ]
+      }
+    },
+    "oak_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_stairs"
+          }
+        ]
+      }
+    },
+    "oak_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_fence_gate"
+          }
+        ]
+      }
+    },
+    "oak_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_boat"
+          }
+        ]
+      }
+    }
+  }
+}

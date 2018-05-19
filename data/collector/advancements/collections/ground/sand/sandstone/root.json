@@ -1,0 +1,114 @@
+{
+  "parent": "collector:collections/ground/sand/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "title": "Smooth Operator!",
+    "description": "Collect all the different types of sandstone variants!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sandstone"
+          }
+        ]
+      }
+    },
+    "chiseled_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:coarse_dirt"
+          }
+        ]
+      }
+    },
+    "cut_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cut_sandstone"
+          }
+        ]
+      }
+    },
+    "sandstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sandstone_slab"
+          }
+        ]
+      }
+    },
+    "red_sandstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone_slab"
+          }
+        ]
+      }
+    },
+    "sandstone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sandstone_stairs"
+          }
+        ]
+      }
+    },
+    "red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone"
+          }
+        ]
+      }
+    },
+    "chiseled_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chiseled_red_sandstone"
+          }
+        ]
+      }
+    },
+    "cut_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cut_red_sandstone"
+          }
+        ]
+      }
+    },
+    "red_sandstone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone_stairs"
+          }
+        ]
+      }
+    }
+  }
+}

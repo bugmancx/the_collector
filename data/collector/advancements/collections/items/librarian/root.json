@@ -1,0 +1,74 @@
+{
+  "parent": "collector:collections/items/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": "An Enchanting Library",
+    "description": "Collect books, a bookshelf, an enchanting table, a map and paper!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bookshelf"
+          }
+        ]
+      }
+    },
+    "writable_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:writable_book"
+          }
+        ]
+      }
+    },
+    "written_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book"
+          }
+        ]
+      }
+    },
+    "enchanting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanting_table"
+          }
+        ]
+      }
+    },
+    "paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:paper"
+          }
+        ]
+      }
+    },
+    "map": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:map"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "collector:collections/hostile_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_block"
+    },
+    "title": "Sticky Slime!",
+    "description": "Collect slime and bone blocks!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "slime_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_block"
+          }
+        ]
+      }
+    },
+    "bone_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bone_block"
+          }
+        ]
+      }
+    }
+  }
+}

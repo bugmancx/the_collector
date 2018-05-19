@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/shield/armor/golden_armor",
+  "display": {
+    "icon": {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    "title": "I'm in chains!",
+    "description": "Collect all chainmail player armor!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "chainmail_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_helmet"
+          }
+        ]
+      }
+    },
+    "chainmail_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_leggings"
+          }
+        ]
+      }
+    },
+    "chainmail_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_boots"
+          }
+        ]
+      }
+    },
+    "chainmail_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chainmail_chestplate"
+          }
+        ]
+      }
+    }
+  }
+}

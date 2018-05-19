@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/shield/tools/iron_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "title": "Golden Toolset!",
+    "description": "Collect all the tools made from gold!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+   "golden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_pickaxe"
+          }
+        ]
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_shovel"
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_axe"
+          }
+        ]
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:golden_hoe"
+          }
+        ]
+      }
+    }
+  }
+}

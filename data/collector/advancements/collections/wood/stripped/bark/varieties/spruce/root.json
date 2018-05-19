@@ -1,0 +1,104 @@
+{
+  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:spruce_door"
+    },
+    "title": "Just spruicing up!",
+    "description": "Craft and collect all spruce wood items",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "spruce_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_door"
+          }
+        ]
+      }
+    },
+    "spruce_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_slab"
+          }
+        ]
+      }
+    },
+    "spruce_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_pressure_plate"
+          }
+        ]
+      }
+    },
+    "spruce_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_fence"
+          }
+        ]
+      }
+    },
+    "spruce_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_trapdoor"
+          }
+        ]
+      }
+    },
+    "spruce_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_button"
+          }
+        ]
+      }
+    },
+    "spruce_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_stairs"
+          }
+        ]
+      }
+    },
+    "spruce_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_fence_gate"
+          }
+        ]
+      }
+    },
+    "spruce_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_boat"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "collector:collections/shield/tools/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "title": "Better Than the Real Stone Age!",
+    "description": "Collect all the stone tools!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "stone_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_shovel"
+          }
+        ]
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_shovel"
+          }
+        ]
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_axe"
+          }
+        ]
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_hoe"
+          }
+        ]
+      }
+    }
+  }
+}

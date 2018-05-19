@@ -1,0 +1,174 @@
+{
+  "parent": "collector:collections/dye/wool/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_carpet"
+    },
+    "title": "The Magic Carpet!",
+    "description": "Collect all the carpet colours!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "white_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_carpet"
+          }
+        ]
+      }
+    },
+    "light_blue_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_carpet"
+          }
+        ]
+      }
+    },
+    "cyan_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cyan_carpet"
+          }
+        ]
+      }
+    },
+    "yellow_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_carpet"
+          }
+        ]
+      }
+    },
+    "blue_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_carpet"
+          }
+        ]
+      }
+    },
+    "brown_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_carpet"
+          }
+        ]
+      }
+    },
+    "green_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_carpet"
+          }
+        ]
+      }
+    },
+    "orange_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:orange_carpet"
+          }
+        ]
+      }
+    },
+    "gray_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_carpet"
+          }
+        ]
+      }
+    },
+    "black_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_carpet"
+          }
+        ]
+      }
+    },
+    "lime_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lime_carpet"
+          }
+        ]
+      }
+    },
+    "red_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_carpet"
+          }
+        ]
+      }
+    },
+    "light_gray_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_gray_carpet"
+          }
+        ]
+      }
+    },
+    "magenta_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magenta_carpet"
+          }
+        ]
+      }
+    },
+    "pink_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_carpet"
+          }
+        ]
+      }
+    },
+    "purple_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:purple_carpet"
+          }
+        ]
+      }
+    }
+  }
+ }
