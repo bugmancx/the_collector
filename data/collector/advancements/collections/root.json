@@ -1,4 +1,7 @@
 {
+  "__comment": "Author: bugmancx",
+  "__comment": "Location: https://github.com/bugmancx/minecraft-datapack-the_collector",
+  "__comment": "License: MIT License: https://github.com/angular/angular.js/blob/master/LICENSE",
   "display": {
     "icon": {
       "item": "minecraft:ender_chest"
