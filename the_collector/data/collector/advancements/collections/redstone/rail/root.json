@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/items/redstone/root",
+  "parent": "collector:collections/redstone/root",
   "display": {
     "icon": {
       "item": "minecraft:rail"
