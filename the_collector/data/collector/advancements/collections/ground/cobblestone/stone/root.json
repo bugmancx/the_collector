@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/ground/cobblestone/stone/root",
+  "parent": "collector:collections/ground/cobblestone/root",
   "display": {
     "icon": {
       "item": "minecraft:stone"

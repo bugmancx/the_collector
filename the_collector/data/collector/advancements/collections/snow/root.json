@@ -20,12 +20,12 @@
         ]
       }
     },
-    "snow_layer": {
+    "snow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:snow_layer"
+            "item": "minecraft:snow"
           }
         ]
       }
