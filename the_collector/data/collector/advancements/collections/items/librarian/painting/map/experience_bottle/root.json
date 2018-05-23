@@ -1,11 +1,11 @@
 {
-  "parent": "collector:collections/items/root",
+  "parent": "collector:collections/items/librarian/painting/map/root",
   "display": {
     "icon": {
       "item": "minecraft:experience_bottle"
     },
-    "title": "A true trader!",
-    "description": "Collect the one item in the game available only from villager trading",
+    "title": "Experience the Adventure!",
+    "description": "Collect experience in a bottle",
     "show_toast": true,
     "announce_to_chat": true
   },

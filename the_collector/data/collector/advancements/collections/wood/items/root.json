@@ -89,6 +89,16 @@
           }
         ]
       }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fishing_rod"
+          }
+        ]
+      }
     }
   }
 }

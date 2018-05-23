@@ -1,51 +1,51 @@
 {
-  "parent": "collector:collections/shield/tools/golden_tools",
+  "parent": "collector:collections/items/librarian/painting/root",
   "display": {
     "icon": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:compass"
     },
-    "title": "The Best Tools Money Can Buy!",
-    "description": "Collect all the diamond tools!",
+    "title": "The Adventurer!",
+    "description": "Collect a compass and a clock, and both empty and filled maps",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-   "diamond_pickaxe": {
+    "compass": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_pickaxe"
+            "item": "minecraft:compass"
           }
         ]
       }
     },
-    "diamond_shovel": {
+    "clock": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_shovel"
+            "item": "minecraft:clock"
           }
         ]
       }
     },
-    "diamond_axe": {
+    "map": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_axe"
+            "item": "minecraft:map"
           }
         ]
       }
     },
-    "diamond_hoe": {
+    "filled_map": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_hoe"
+            "item": "minecraft:filled_map"
           }
         ]
       }

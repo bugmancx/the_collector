@@ -2,7 +2,7 @@
   "parent": "collector:collections/root",
   "display": {
     "icon": {
-      "item": "minecraft:egg"
+      "item": "minecraft:feather"
     },
     "title": "Passive Mobbing!",
     "description": "Collect as many passive and neutral mob drops as you can!",

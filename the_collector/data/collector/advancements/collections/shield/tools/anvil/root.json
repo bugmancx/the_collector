@@ -1,41 +1,41 @@
 {
-  "parent": "collector:collections/redstone/root",
+  "parent": "collector:collections/shield/tools/stone_tools/iron_tools/root",
   "display": {
     "icon": {
-      "item": "minecraft:rail"
+      "item": "minecraft:anvil"
     },
-    "title": "Rail Enthusiast!",
-    "description": "Collect all types of rail and a minecart to use with it!",
+    "title": "Anvil Advancer!",
+    "description": "Collect three anvils in the three damage states",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "rail": {
+    "anvil": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:rail"
+            "item": "minecraft:anvil"
           }
         ]
       }
     },
-    "powered_rail": {
+    "chipped_anvil": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:powered_rail"
+            "item": "minecraft:chipped_anvil"
           }
         ]
       }
     },
-    "activator_rail": {
+    "damaged_anvil": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:activator_rail"
+            "item": "minecraft:damaged_anvil"
           }
         ]
       }

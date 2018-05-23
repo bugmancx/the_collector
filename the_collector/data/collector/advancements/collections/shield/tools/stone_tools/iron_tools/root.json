@@ -1,61 +1,71 @@
 {
-  "parent": "collector:collections/items/root",
+  "parent": "collector:collections/shield/tools/stone_tools/root",
   "display": {
     "icon": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:iron_pickaxe"
     },
-    "title": "An Enchanting Library",
-    "description": "Collect books, a bookshelf, an enchanting table, and some paper!",
+    "title": "Iron Toolage!",
+    "description": "Collect all the iron tools!",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "bookshelf": {
+    "iron_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:iron_shovel"
           }
         ]
       }
     },
-    "writable_book": {
+    "iron_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:writable_book"
+            "item": "minecraft:iron_shovel"
           }
         ]
       }
     },
-    "written_book": {
+    "iron_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:written_book"
+            "item": "minecraft:iron_axe"
           }
         ]
       }
     },
-    "enchanting_table": {
+    "iron_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:enchanting_table"
+            "item": "minecraft:iron_hoe"
           }
         ]
       }
     },
-    "paper": {
+    "shears": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:paper"
+            "item": "minecraft:shears"
+          }
+        ]
+      }
+    },
+    "flint_and_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:flint_and_steel"
           }
         ]
       }

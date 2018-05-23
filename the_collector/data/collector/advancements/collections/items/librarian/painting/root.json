@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/items/root",
+  "parent": "collector:collections/items/librarian/root",
   "display": {
     "icon": {
       "item": "minecraft:painting"

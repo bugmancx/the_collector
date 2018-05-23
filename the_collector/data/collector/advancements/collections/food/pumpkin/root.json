@@ -1,0 +1,34 @@
+{
+  "parent": "collector:collections/food/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "Pumpkin Personalities!",
+    "description": "Collect your favourite pumpkin carving and make a Jack o' Lantern!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "carved_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:carved_pumpkin"
+          }
+        ]
+      }
+    },
+    "jack_o_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jack_o_lantern"
+          }
+        ]
+      }
+    }
+  }
+}

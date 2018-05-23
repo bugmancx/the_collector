@@ -1,61 +1,51 @@
 {
-  "parent": "collector:collections/items/root",
+  "parent": "collector:collections/items/ender_chest/root",
   "display": {
     "icon": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:creeper_head"
     },
-    "title": "An Enchanting Library",
-    "description": "Collect books, a bookshelf, an enchanting table, and some paper!",
+    "title": "Head Hunter!",
+    "description": "Collect all the vanilla skulls and heads!",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "bookshelf": {
+    "dragon_head": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bookshelf"
+            "item": "minecraft:dragon_head"
           }
         ]
       }
     },
-    "writable_book": {
+   "skeleton_skull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:writable_book"
+            "item": "minecraft:skeleton_skull"
           }
         ]
       }
     },
-    "written_book": {
+   "wither_skeleton_skull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:written_book"
+            "item": "minecraft:wither_skeleton_skull"
           }
         ]
       }
     },
-    "enchanting_table": {
+   "creeper_head": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:enchanting_table"
-          }
-        ]
-      }
-    },
-    "paper": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:paper"
+            "item": "minecraft:creeper_head"
           }
         ]
       }

@@ -1,51 +1,61 @@
 {
-  "parent": "collector:collections/shield/tools/root",
+  "parent": "collector:collections/redstone/rail/root",
   "display": {
     "icon": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:minecart"
     },
-    "title": "Better Than the Real Stone Age!",
-    "description": "Collect all the stone tools!",
+    "title": "Miner Advancements!",
+    "description": "Collect all types of minecart!",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "stone_pickaxe": {
+    "minecart": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_shovel"
+            "item": "minecraft:minecart"
           }
         ]
       }
     },
-    "stone_shovel": {
+    "furnace_minecart": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_shovel"
+            "item": "minecraft:furnace_minecart"
           }
         ]
       }
     },
-    "stone_axe": {
+    "chest_minecart": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_axe"
+            "item": "minecraft:chest_minecart"
           }
         ]
       }
     },
-    "stone_hoe": {
+    "hopper_minecart": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_hoe"
+            "item": "minecraft:hopper_minecart"
+          }
+        ]
+      }
+    },
+    "tnt_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tnt_minecart"
           }
         ]
       }

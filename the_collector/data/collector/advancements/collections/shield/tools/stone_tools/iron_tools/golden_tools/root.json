@@ -1,51 +1,51 @@
 {
-  "parent": "collector:collections/items/root",
+  "parent": "collector:collections/shield/tools/stone_tools/iron_tools/root",
   "display": {
     "icon": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:golden_pickaxe"
     },
-    "title": "Head Hunter!",
-    "description": "Collect all the vanilla skulls and heads!",
+    "title": "Golden Toolset!",
+    "description": "Collect all the tools made from gold!",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "dragon_head": {
+   "golden_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dragon_head"
+            "item": "minecraft:golden_pickaxe"
           }
         ]
       }
     },
-   "skeleton_skull": {
+    "golden_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:skeleton_skull"
+            "item": "minecraft:golden_shovel"
           }
         ]
       }
     },
-   "wither_skeleton_skull": {
+    "golden_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wither_skeleton_skull"
+            "item": "minecraft:golden_axe"
           }
         ]
       }
     },
-   "creeper_head": {
+    "golden_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:creeper_head"
+            "item": "minecraft:golden_hoe"
           }
         ]
       }

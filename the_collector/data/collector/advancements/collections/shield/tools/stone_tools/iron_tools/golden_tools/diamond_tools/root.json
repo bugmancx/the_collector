@@ -1,51 +1,51 @@
 {
-  "parent": "collector:collections/shield/tools/iron_tools",
+  "parent": "collector:collections/shield/tools/stone_tools/iron_tools/golden_tools/root",
   "display": {
     "icon": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:diamond_pickaxe"
     },
-    "title": "Golden Toolset!",
-    "description": "Collect all the tools made from gold!",
+    "title": "The Best Tools Money Can Buy!",
+    "description": "Collect all the diamond tools!",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-   "golden_pickaxe": {
+   "diamond_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_pickaxe"
+            "item": "minecraft:diamond_pickaxe"
           }
         ]
       }
     },
-    "golden_shovel": {
+    "diamond_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_shovel"
+            "item": "minecraft:diamond_shovel"
           }
         ]
       }
     },
-    "golden_axe": {
+    "diamond_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_axe"
+            "item": "minecraft:diamond_axe"
           }
         ]
       }
     },
-    "golden_hoe": {
+    "diamond_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:golden_hoe"
+            "item": "minecraft:diamond_hoe"
           }
         ]
       }

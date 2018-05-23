@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/passive_mobs/animal_tamer/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": "I name to please!",
+    "description": "Collect a name tag!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "name_tag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:name_tag"
+          }
+        ]
+      }
+    }
+  }
+}

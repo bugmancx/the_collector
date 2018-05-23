@@ -1,51 +1,61 @@
 {
-  "parent": "collector:collections/shield/tools/stone_tools",
+  "parent": "collector:collections/shield/tools/root",
   "display": {
     "icon": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:stone_pickaxe"
     },
-    "title": "Iron Toolage!",
-    "description": "Collect all the iron tools!",
+    "title": "Better Than the Real Stone Age!",
+    "description": "Collect all the stone tools, and a furnace",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "iron_pickaxe": {
+    "stone_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_shovel"
+            "item": "minecraft:stone_shovel"
           }
         ]
       }
     },
-    "iron_shovel": {
+    "stone_shovel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_shovel"
+            "item": "minecraft:stone_shovel"
           }
         ]
       }
     },
-    "iron_axe": {
+    "stone_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_axe"
+            "item": "minecraft:stone_axe"
           }
         ]
       }
     },
-    "iron_hoe": {
+    "stone_hoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_hoe"
+            "item": "minecraft:stone_hoe"
+          }
+        ]
+      }
+    },
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:furnace"
           }
         ]
       }

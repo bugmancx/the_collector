@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/root",
+  "parent": "collector:collections/ground/root",
   "display": {
     "icon": {
       "item": "minecraft:blue_ice"
