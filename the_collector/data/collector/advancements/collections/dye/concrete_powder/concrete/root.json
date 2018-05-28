@@ -4,8 +4,8 @@
     "icon": {
       "item": "minecraft:orange_concrete"
     },
-    "title": "Powder your nose!",
-    "description": "Collect all the concrete powder colours!",
+    "title": "Concretely Finished!",
+    "description": "Collect all the concrete colours!",
     "show_toast": true,
     "announce_to_chat": true
   },
