@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/wood/stripped/root",
+  "parent": "collector:collections/wood/root",
   "display": {
     "icon": {
       "item": "minecraft:oak_bark"

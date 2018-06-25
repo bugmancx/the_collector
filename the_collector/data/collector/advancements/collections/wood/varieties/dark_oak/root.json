@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "parent": "collector:collections/wood/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:dark_oak_door"
     },
-    "title": "Oakly the best for me!",
-    "description": "Craft and collect all oak wood items",
+    "title": "Oakily Darkily!",
+    "description": "Craft and collect all dark oak wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "oak_door": {
+    "dark_oak_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_door"
+            "item": "minecraft:dark_oak_door"
           }
         ]
       }
     },
-    "oak_slab": {
+    "dark_oak_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_slab"
+            "item": "minecraft:dark_oak_slab"
           }
         ]
       }
     },
-    "oak_pressure_plate": {
+    "dark_oak_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_pressure_plate"
+            "item": "minecraft:dark_oak_pressure_plate"
           }
         ]
       }
     },
-    "oak_fence": {
+    "dark_oak_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_fence"
+            "item": "minecraft:dark_oak_fence"
           }
         ]
       }
     },
-    "oak_trapdoor": {
+    "dark_oak_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_trapdoor"
+            "item": "minecraft:dark_oak_trapdoor"
           }
         ]
       }
     },
-    "oak_button": {
+    "dark_oak_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_button"
+            "item": "minecraft:dark_oak_button"
           }
         ]
       }
     },
-    "oak_stairs": {
+    "dark_oak_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_stairs"
+            "item": "minecraft:dark_oak_stairs"
           }
         ]
       }
     },
-    "oak_fence_gate": {
+    "dark_oak_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_fence_gate"
+            "item": "minecraft:dark_oak_fence_gate"
           }
         ]
       }
     },
-    "oak_boat": {
+    "dark_oak_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_boat"
+            "item": "minecraft:dark_oak_boat"
           }
         ]
       }

@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/root",
+  "parent": "collector:collections/wood/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:stick"
+      "item": "minecraft:oak_door"
     },
-    "title": "Sticky situation!",
-    "description": "Collect all miscellaneous items made from wood",
+    "title": "Oakly the best for me!",
+    "description": "Craft and collect all oak wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "stick": {
+    "oak_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stick"
+            "item": "minecraft:oak_door"
           }
         ]
       }
     },
-    "bowl": {
+    "oak_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bowl"
+            "item": "minecraft:oak_slab"
           }
         ]
       }
     },
-    "charcoal": {
+    "oak_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:charcoal"
+            "item": "minecraft:oak_pressure_plate"
           }
         ]
       }
     },
-    "torch": {
+    "oak_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:torch"
+            "item": "minecraft:oak_fence"
           }
         ]
       }
     },
-    "ladder": {
+    "oak_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:ladder"
+            "item": "minecraft:oak_trapdoor"
           }
         ]
       }
     },
-    "sign": {
+    "oak_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sign"
+            "item": "minecraft:oak_button"
           }
         ]
       }
     },
-    "trapped_chest": {
+    "oak_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:trapped_chest"
+            "item": "minecraft:oak_stairs"
           }
         ]
       }
     },
-    "chest": {
+    "oak_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:chest"
+            "item": "minecraft:oak_fence_gate"
           }
         ]
       }
     },
-    "fishing_rod": {
+    "oak_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:fishing_rod"
+            "item": "minecraft:oak_boat"
           }
         ]
       }

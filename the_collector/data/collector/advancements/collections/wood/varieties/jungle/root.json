@@ -1,5 +1,5 @@
 {
-  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "parent": "collector:collections/wood/varieties/root",
   "display": {
     "icon": {
       "item": "minecraft:jungle_door"

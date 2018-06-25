@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/stripped/bark/varieties/root",
+  "parent": "collector:collections/wood/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:acacia_door"
     },
-    "title": "Life's a birch!",
-    "description": "Craft and collect all birch wood items",
+    "title": "Acacia need it!",
+    "description": "Craft and collect all acacia wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "birch_door": {
+    "acacia_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_door"
+            "item": "minecraft:acacia_door"
           }
         ]
       }
     },
-    "birch_slab": {
+    "acacia_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_slab"
+            "item": "minecraft:acacia_slab"
           }
         ]
       }
     },
-    "birch_pressure_plate": {
+    "acacia_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_pressure_plate"
+            "item": "minecraft:acacia_pressure_plate"
           }
         ]
       }
     },
-    "birch_fence": {
+    "acacia_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_fence"
+            "item": "minecraft:acacia_fence"
           }
         ]
       }
     },
-    "birch_trapdoor": {
+    "acacia_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_trapdoor"
+            "item": "minecraft:acacia_trapdoor"
           }
         ]
       }
     },
-    "birch_button": {
+    "acacia_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_button"
+            "item": "minecraft:acacia_button"
           }
         ]
       }
     },
-    "birch_stairs": {
+    "acacia_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_stairs"
+            "item": "minecraft:acacia_stairs"
           }
         ]
       }
     },
-    "birch_fence_gate": {
+    "acacia_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_fence_gate"
+            "item": "minecraft:acacia_fence_gate"
           }
         ]
       }
     },
-    "birch_boat": {
+    "acacia_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_boat"
+            "item": "minecraft:acacia_boat"
           }
         ]
       }
