@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/brewing/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": "A Pride of Potions",
+    "description": "Potions can be brewed in three ways. Collect any potion for each type!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:potion"
+          }
+        ]
+      }
+    },
+    "splash_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:splash_potion"
+          }
+        ]
+      }
+    },
+    "lingering_potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lingering_potion"
+          }
+        ]
+      }
+    }
+  }
+}
