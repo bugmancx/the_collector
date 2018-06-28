@@ -1,111 +1,101 @@
 {
-  "parent": "collector:collections/wood/varieties/root",
+  "parent": "collector:collections/log/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:stick"
+      "item": "minecraft:acacia_door"
     },
-    "title": "Sticky situation!",
-    "description": "Collect all miscellaneous items made from wood",
+    "title": "Acacia need it!",
+    "description": "Craft and collect all acacia wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "stick": {
+    "acacia_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stick"
+            "item": "minecraft:acacia_door"
           }
         ]
       }
     },
-    "bowl": {
+    "acacia_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bowl"
+            "item": "minecraft:acacia_slab"
           }
         ]
       }
     },
-    "charcoal": {
+    "acacia_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:charcoal"
+            "item": "minecraft:acacia_pressure_plate"
           }
         ]
       }
     },
-    "torch": {
+    "acacia_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:torch"
+            "item": "minecraft:acacia_fence"
           }
         ]
       }
     },
-    "ladder": {
+    "acacia_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:ladder"
+            "item": "minecraft:acacia_trapdoor"
           }
         ]
       }
     },
-    "sign": {
+    "acacia_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sign"
+            "item": "minecraft:acacia_button"
           }
         ]
       }
     },
-    "trapped_chest": {
+    "acacia_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:trapped_chest"
+            "item": "minecraft:acacia_stairs"
           }
         ]
       }
     },
-    "chest": {
+    "acacia_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:chest"
+            "item": "minecraft:acacia_fence_gate"
           }
         ]
       }
     },
-    "bookshelf": {
+    "acacia_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bookshelf"
-          }
-        ]
-      }
-    },
-    "fishing_rod": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:fishing_rod"
+            "item": "minecraft:acacia_boat"
           }
         ]
       }

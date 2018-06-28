@@ -1,71 +1,71 @@
 {
-  "parent": "collector:collections/wood/root",
+  "parent": "collector:collections/log/stripped_log/root",
   "display": {
     "icon": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:oak_wood"
     },
-    "title": "Strip 'em off!",
-    "description": "Collect all stripped log types",
+    "title": "Wooden You Know It?",
+    "description": "Collect all wood types",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "stripped_spruce_log": {
+    "oak_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_spruce_log"
+            "item": "minecraft:oak_wood"
           }
         ]
       }
     },
-    "stripped_birch_log": {
+    "birch_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_birch_log"
+            "item": "minecraft:birch_wood"
           }
         ]
       }
     },
-    "stripped_acacia_log": {
+    "acacia_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_acacia_log"
+            "item": "minecraft:acacia_wood"
           }
         ]
       }
     },
-    "stripped_dark_oak_log": {
+    "dark_oak_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_dark_oak_log"
+            "item": "minecraft:dark_oak_wood"
           }
         ]
       }
     },
-    "stripped_oak_log": {
+    "spruce_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_oak_log"
+            "item": "minecraft:spruce_wood"
           }
         ]
       }
     },
-    "stripped_jungle_log": {
+    "jungle_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_jungle_log"
+            "item": "minecraft:jungle_wood"
           }
         ]
       }

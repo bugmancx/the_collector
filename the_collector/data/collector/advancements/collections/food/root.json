@@ -110,12 +110,12 @@
         ]
       }
     },
-    "clownfish": {
+    "tropical_fish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:clownfish"
+            "item": "minecraft:tropical_fish"
           }
         ]
       }

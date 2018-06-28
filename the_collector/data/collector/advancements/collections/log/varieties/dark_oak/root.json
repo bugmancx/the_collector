@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/varieties/root",
+  "parent": "collector:collections/log/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:dark_oak_door"
     },
-    "title": "Acacia need it!",
-    "description": "Craft and collect all acacia wood items",
+    "title": "Oakily Darkily!",
+    "description": "Craft and collect all dark oak wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "acacia_door": {
+    "dark_oak_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_door"
+            "item": "minecraft:dark_oak_door"
           }
         ]
       }
     },
-    "acacia_slab": {
+    "dark_oak_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_slab"
+            "item": "minecraft:dark_oak_slab"
           }
         ]
       }
     },
-    "acacia_pressure_plate": {
+    "dark_oak_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_pressure_plate"
+            "item": "minecraft:dark_oak_pressure_plate"
           }
         ]
       }
     },
-    "acacia_fence": {
+    "dark_oak_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_fence"
+            "item": "minecraft:dark_oak_fence"
           }
         ]
       }
     },
-    "acacia_trapdoor": {
+    "dark_oak_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_trapdoor"
+            "item": "minecraft:dark_oak_trapdoor"
           }
         ]
       }
     },
-    "acacia_button": {
+    "dark_oak_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_button"
+            "item": "minecraft:dark_oak_button"
           }
         ]
       }
     },
-    "acacia_stairs": {
+    "dark_oak_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_stairs"
+            "item": "minecraft:dark_oak_stairs"
           }
         ]
       }
     },
-    "acacia_fence_gate": {
+    "dark_oak_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_fence_gate"
+            "item": "minecraft:dark_oak_fence_gate"
           }
         ]
       }
     },
-    "acacia_boat": {
+    "dark_oak_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_boat"
+            "item": "minecraft:dark_oak_boat"
           }
         ]
       }

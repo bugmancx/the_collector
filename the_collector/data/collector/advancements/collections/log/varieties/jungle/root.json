@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/varieties/root",
+  "parent": "collector:collections/log/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:jungle_door"
     },
-    "title": "Just spruicing up!",
-    "description": "Craft and collect all spruce wood items",
+    "title": "Junglin' my items!",
+    "description": "Craft and collect all jungle wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "spruce_door": {
+    "jungle_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_door"
+            "item": "minecraft:jungle_door"
           }
         ]
       }
     },
-    "spruce_slab": {
+    "jungle_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_slab"
+            "item": "minecraft:jungle_slab"
           }
         ]
       }
     },
-    "spruce_pressure_plate": {
+    "jungle_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_pressure_plate"
+            "item": "minecraft:jungle_pressure_plate"
           }
         ]
       }
     },
-    "spruce_fence": {
+    "jungle_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_fence"
+            "item": "minecraft:jungle_fence"
           }
         ]
       }
     },
-    "spruce_trapdoor": {
+    "jungle_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_trapdoor"
+            "item": "minecraft:jungle_trapdoor"
           }
         ]
       }
     },
-    "spruce_button": {
+    "jungle_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_button"
+            "item": "minecraft:jungle_button"
           }
         ]
       }
     },
-    "spruce_stairs": {
+    "jungle_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_stairs"
+            "item": "minecraft:jungle_stairs"
           }
         ]
       }
     },
-    "spruce_fence_gate": {
+    "jungle_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_fence_gate"
+            "item": "minecraft:jungle_fence_gate"
           }
         ]
       }
     },
-    "spruce_boat": {
+    "jungle_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_boat"
+            "item": "minecraft:jungle_boat"
           }
         ]
       }

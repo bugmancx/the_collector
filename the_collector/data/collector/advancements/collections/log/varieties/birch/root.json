@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/varieties/root",
+  "parent": "collector:collections/log/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:birch_door"
     },
-    "title": "Junglin' my items!",
-    "description": "Craft and collect all jungle wood items",
+    "title": "Life's a birch!",
+    "description": "Craft and collect all birch wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "jungle_door": {
+    "birch_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_door"
+            "item": "minecraft:birch_door"
           }
         ]
       }
     },
-    "jungle_slab": {
+    "birch_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_slab"
+            "item": "minecraft:birch_slab"
           }
         ]
       }
     },
-    "jungle_pressure_plate": {
+    "birch_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_pressure_plate"
+            "item": "minecraft:birch_pressure_plate"
           }
         ]
       }
     },
-    "jungle_fence": {
+    "birch_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_fence"
+            "item": "minecraft:birch_fence"
           }
         ]
       }
     },
-    "jungle_trapdoor": {
+    "birch_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_trapdoor"
+            "item": "minecraft:birch_trapdoor"
           }
         ]
       }
     },
-    "jungle_button": {
+    "birch_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_button"
+            "item": "minecraft:birch_button"
           }
         ]
       }
     },
-    "jungle_stairs": {
+    "birch_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_stairs"
+            "item": "minecraft:birch_stairs"
           }
         ]
       }
     },
-    "jungle_fence_gate": {
+    "birch_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_fence_gate"
+            "item": "minecraft:birch_fence_gate"
           }
         ]
       }
     },
-    "jungle_boat": {
+    "birch_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_boat"
+            "item": "minecraft:birch_boat"
           }
         ]
       }

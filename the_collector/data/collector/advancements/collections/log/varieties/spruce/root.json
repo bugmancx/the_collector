@@ -1,101 +1,101 @@
 {
-  "parent": "collector:collections/wood/varieties/root",
+  "parent": "collector:collections/log/varieties/root",
   "display": {
     "icon": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:spruce_door"
     },
-    "title": "Life's a birch!",
-    "description": "Craft and collect all birch wood items",
+    "title": "Just spruicing up!",
+    "description": "Craft and collect all spruce wood items",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "birch_door": {
+    "spruce_door": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_door"
+            "item": "minecraft:spruce_door"
           }
         ]
       }
     },
-    "birch_slab": {
+    "spruce_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_slab"
+            "item": "minecraft:spruce_slab"
           }
         ]
       }
     },
-    "birch_pressure_plate": {
+    "spruce_pressure_plate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_pressure_plate"
+            "item": "minecraft:spruce_pressure_plate"
           }
         ]
       }
     },
-    "birch_fence": {
+    "spruce_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_fence"
+            "item": "minecraft:spruce_fence"
           }
         ]
       }
     },
-    "birch_trapdoor": {
+    "spruce_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_trapdoor"
+            "item": "minecraft:spruce_trapdoor"
           }
         ]
       }
     },
-    "birch_button": {
+    "spruce_button": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_button"
+            "item": "minecraft:spruce_button"
           }
         ]
       }
     },
-    "birch_stairs": {
+    "spruce_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_stairs"
+            "item": "minecraft:spruce_stairs"
           }
         ]
       }
     },
-    "birch_fence_gate": {
+    "spruce_fence_gate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_fence_gate"
+            "item": "minecraft:spruce_fence_gate"
           }
         ]
       }
     },
-    "birch_boat": {
+    "spruce_boat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_boat"
+            "item": "minecraft:spruce_boat"
           }
         ]
       }

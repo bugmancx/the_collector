@@ -1,71 +1,71 @@
 {
-  "parent": "collector:collections/wood/root",
+  "parent": "collector:collections/root",
   "display": {
     "icon": {
-      "item": "minecraft:oak_bark"
+      "item": "minecraft:oak_log"
     },
-    "title": "Barking Mad!",
-    "description": "Collect all bark types",
+    "title": "Login to your collection!",
+    "description": "Collect each log type",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "oak_bark": {
+    "jungle_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_bark"
+            "item": "minecraft:jungle_log"
           }
         ]
       }
     },
-    "birch_bark": {
+    "oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_bark"
+            "item": "minecraft:oak_log"
           }
         ]
       }
     },
-    "acacia_bark": {
+    "birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_bark"
+            "item": "minecraft:birch_log"
           }
         ]
       }
     },
-    "dark_oak_bark": {
+    "acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dark_oak_bark"
+            "item": "minecraft:acacia_log"
           }
         ]
       }
     },
-    "spruce_bark": {
+    "spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_bark"
+            "item": "minecraft:spruce_log"
           }
         ]
       }
     },
-    "jungle_bark": {
+    "dark_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_bark"
+            "item": "minecraft:dark_oak_log"
           }
         ]
       }

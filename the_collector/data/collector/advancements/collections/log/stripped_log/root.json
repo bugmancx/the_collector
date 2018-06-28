@@ -1,71 +1,71 @@
 {
-  "parent": "collector:collections/wood/root",
+  "parent": "collector:collections/log/root",
   "display": {
     "icon": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:stripped_oak_log"
     },
-    "title": "You planker!",
-    "description": "Collect all plank types",
+    "title": "Strip 'em off!",
+    "description": "Collect all stripped log types",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "oak_planks": {
+    "stripped_spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_planks"
+            "item": "minecraft:stripped_spruce_log"
           }
         ]
       }
     },
-    "birch_planks": {
+    "stripped_birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:birch_planks"
+            "item": "minecraft:stripped_birch_log"
           }
         ]
       }
     },
-    "acacia_planks": {
+    "stripped_acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_planks"
+            "item": "minecraft:stripped_acacia_log"
           }
         ]
       }
     },
-    "dark_oak_planks": {
+    "stripped_dark_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dark_oak_planks"
+            "item": "minecraft:stripped_dark_oak_log"
           }
         ]
       }
     },
-    "spruce_planks": {
+    "stripped_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_planks"
+            "item": "minecraft:stripped_oak_log"
           }
         ]
       }
     },
-    "jungle_planks": {
+    "stripped_jungle_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:jungle_planks"
+            "item": "minecraft:stripped_jungle_log"
           }
         ]
       }

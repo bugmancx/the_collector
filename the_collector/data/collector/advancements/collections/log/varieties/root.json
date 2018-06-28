@@ -1,71 +1,71 @@
 {
-  "parent": "collector:collections/wood/bark/root",
+  "parent": "collector:collections/log/root",
   "display": {
     "icon": {
-      "item": "minecraft:stripped_oak_bark"
+      "item": "minecraft:oak_planks"
     },
-    "title": "Bark it up!",
-    "description": "Collect all stripped bar types",
+    "title": "You planker!",
+    "description": "Collect all plank types",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "stripped_spruce_bark": {
+    "oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_spruce_bark"
+            "item": "minecraft:oak_planks"
           }
         ]
       }
     },
-    "stripped_birch_bark": {
+    "birch_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_birch_bark"
+            "item": "minecraft:birch_planks"
           }
         ]
       }
     },
-    "stripped_acacia_bark": {
+    "acacia_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_acacia_bark"
+            "item": "minecraft:acacia_planks"
           }
         ]
       }
     },
-    "stripped_dark_oak_bark": {
+    "dark_oak_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_dark_oak_bark"
+            "item": "minecraft:dark_oak_planks"
           }
         ]
       }
     },
-    "stripped_oak_bark": {
+    "spruce_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_oak_bark"
+            "item": "minecraft:spruce_planks"
           }
         ]
       }
     },
-    "stripped_jungle_bark": {
+    "jungle_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_jungle_bark"
+            "item": "minecraft:jungle_planks"
           }
         ]
       }

@@ -10,12 +10,12 @@
     "announce_to_chat": true
   },
   "criteria": {
-        "chorus_fruit_popped": {
+        "popped_chorus_fruit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:chorus_fruit_popped"
+            "item": "minecraft:popped_chorus_fruit"
           }
         ]
       }
