@@ -1,4 +1,4 @@
-# minecraft-datapack-the_collector
+# the_collector
 
 ## Description
 
@@ -11,9 +11,11 @@ Every item in the game belongs to one or more collections and the player will ha
 
 ## Installation Instructions
 
-1. Copy the directory "the_collector" into your minecraft world save's "datapack" directory.
+1. Copy the directory "the_collector" into your minecraft world save's "datapacks" directory.
 2. Load your world and check that the datapack has loaded correctly by issuing the "/datapack list" command.
 3. Check that "[file/the_collector]" is showing up in the list.
+
+You can also upload the datapack as a zip file. Just make sure that there are no extra subdirectories before the pack.mcmeta file. (GitHub has a habit of adding this extra directory.)
 
 ## Bugs
 
