@@ -4,7 +4,7 @@
     "icon": {
       "item": "minecraft:slime_block"
     },
-    "title": "Sticky Slime!",
+    "title": "I've got a bone to stick with you!",
     "description": "Collect slime and bone blocks!",
     "show_toast": true,
     "announce_to_chat": true
