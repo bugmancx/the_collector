@@ -25,7 +25,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:coarse_dirt"
+            "item": "minecraft:chiseled_sandstone"
           }
         ]
       }
