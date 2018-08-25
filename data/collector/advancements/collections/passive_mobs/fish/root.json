@@ -1,0 +1,256 @@
+{
+  "parent": "collector:collections/passive_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "title": "Fancy Fish for You",
+    "description": "Collect all of the named tropical fish.",
+    "show_toast":true,
+    "announce_to_chat":true
+  },
+  "criteria": {
+    "entity.minecraft.tropical_fish.predefined.0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":117506305}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":117899265}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":185008129}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":117441793}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":118161664}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":65536}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":50726144}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":67764993}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":234882305}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":67110144}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":117441025}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":16778497}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":101253888}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":50660352}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.14": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":918529}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.15": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":235340288}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.16": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":918273}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.17": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":67108865}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.18": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":917504}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.19": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":459008}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.20": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":67699456}"
+          }
+        ]
+      }
+    },
+    "entity.minecraft.tropical_fish.predefined.21": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tropical_fish_bucket",
+            "nbt": "{\"BucketVariantTag\":67371009}"
+          }
+        ]
+      }
+    }
+  }
+}
