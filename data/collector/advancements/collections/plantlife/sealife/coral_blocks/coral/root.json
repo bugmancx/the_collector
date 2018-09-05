@@ -65,7 +65,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:tube_coral"
+            "item": "minecraft:dead_tube_coral"
           }
         ]
       }
@@ -75,7 +75,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:brain_coral"
+            "item": "minecraft:dead_brain_coral"
           }
         ]
       }
@@ -85,7 +85,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bubble_coral"
+            "item": "minecraft:dead_bubble_coral"
           }
         ]
       }
@@ -95,7 +95,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:fire_coral"
+            "item": "minecraft:dead_fire_coral"
           }
         ]
       }
@@ -105,7 +105,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:horn_coral"
+            "item": "minecraft:dead_horn_coral"
           }
         ]
       }
