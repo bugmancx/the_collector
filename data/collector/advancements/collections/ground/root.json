@@ -46,7 +46,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:mycelium"
+            "item": "minecraft:grass_block"
           }
         ]
       }
