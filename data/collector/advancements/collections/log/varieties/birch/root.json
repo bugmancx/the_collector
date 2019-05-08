@@ -99,6 +99,16 @@
           }
         ]
       }
+    },
+    "birch_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_sign"
+          }
+        ]
+      }
     }
   }
 }

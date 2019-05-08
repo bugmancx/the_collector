@@ -1,0 +1,84 @@
+{
+  "parent": "collector:collections/ground/cobblestone/stone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:granite"
+    },
+    "title": "Take it for granite!",
+    "description": "Collect granite and all of its variations",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite"
+          }
+        ]
+      }
+    },
+    "granite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite_slab"
+          }
+        ]
+      }
+    },
+    "granite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite_stairs"
+          }
+        ]
+      }
+    },
+    "granite_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:granite_wall"
+          }
+        ]
+      }
+    },
+    "polished_granite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_granite_slab"
+          }
+        ]
+      }
+    },
+    "polished_granite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_granite_stairs"
+          }
+        ]
+      }
+    },
+    "polished_granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_granite"
+          }
+        ]
+      }
+    }
+  }
+}

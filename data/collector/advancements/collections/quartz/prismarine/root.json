@@ -90,6 +90,16 @@
         ]
       }
     },
+    "prismarine_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_wall"
+          }
+        ]
+      }
+    },
     "dark_prismarine_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

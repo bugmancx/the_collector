@@ -10,16 +10,6 @@
     "announce_to_chat": true
   },
   "criteria": {
-    "ink_sac": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:ink_sac"
-          }
-        ]
-      }
-    },
     "black_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -70,32 +60,12 @@
         ]
       }
     },
-    "cocoa_beans": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:cocoa_beans"
-          }
-        ]
-      }
-    },
     "brown_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:brown_dye"
-          }
-        ]
-      }
-    },
-    "lapis_lazuli": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:lapis_lazuli"
           }
         ]
       }

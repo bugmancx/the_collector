@@ -5,7 +5,7 @@
       "item": "minecraft:diamond_sword"
     },
     "title": "Able Attacker!",
-    "description": "Collect all weapons!",
+    "description": "Collect all weapons and arrows!",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -40,12 +40,42 @@
         ]
       }
     },
+    "crossbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crossbow"
+          }
+        ]
+      }
+    },
     "arrow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:arrow"
+          }
+        ]
+      }
+    },
+    "tipped_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tipped_arrow"
+          }
+        ]
+      }
+    },
+   "spectral_arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spectral_arrow"
           }
         ]
       }

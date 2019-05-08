@@ -20,6 +20,26 @@
         ]
       }
     },
+    "suspicious_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:suspicious_stew"
+          }
+        ]
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sweet_berries"
+          }
+        ]
+      }
+    },
     "apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

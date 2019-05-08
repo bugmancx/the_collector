@@ -30,6 +30,16 @@
         ]
       }
     },
+    "mossy_cobblestone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_cobblestone_slab"
+          }
+        ]
+      }
+    },
     "mossy_cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -46,6 +56,16 @@
         "items": [
           {
             "item": "minecraft:cobblestone_stairs"
+          }
+        ]
+      }
+    },
+    "mossy_cobblestone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_cobblestone_stairs"
           }
         ]
       }

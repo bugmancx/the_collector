@@ -110,6 +110,36 @@
         ]
       }
     },
+    "cornflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cornflower"
+          }
+        ]
+      }
+    },
+    "lily_of_the_valley": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lily_of_the_valley"
+          }
+        ]
+      }
+    },
+    "wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_rose"
+          }
+        ]
+      }
+    },
     "sunflower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

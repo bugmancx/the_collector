@@ -29,6 +29,36 @@
           }
         ]
       }
+    },
+    "end_stone_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:end_stone_brick_slab"
+          }
+        ]
+      }
+    },
+    "end_stone_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:end_stone_brick_stairs"
+          }
+        ]
+      }
+    },
+    "end_stone_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:end_stone_brick_wall"
+          }
+        ]
+      }
     }
   }
 }

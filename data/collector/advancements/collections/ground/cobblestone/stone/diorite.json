@@ -1,0 +1,84 @@
+{
+  "parent": "collector:collections/ground/cobblestone/stone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:diorite"
+    },
+    "title": "Diorite by your collection!",
+    "description": "Collect diorite and all of its variations",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite"
+          }
+        ]
+      }
+    },
+    "diorite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite_slab"
+          }
+        ]
+      }
+    },
+    "diorite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite_stairs"
+          }
+        ]
+      }
+    },
+    "diorite_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diorite_wall"
+          }
+        ]
+      }
+    },
+    "polished_diorite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_diorite_slab"
+          }
+        ]
+      }
+    },
+    "polished_diorite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_diorite_stairs"
+          }
+        ]
+      }
+    },
+    "polished_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_diorite"
+          }
+        ]
+      }
+    }
+  }
+}

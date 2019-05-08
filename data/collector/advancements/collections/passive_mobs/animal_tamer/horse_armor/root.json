@@ -39,6 +39,16 @@
           }
         ]
       }
+    },
+    "leather_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather_horse_armor"
+          }
+        ]
+      }
     }
   }
 }

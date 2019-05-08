@@ -5,7 +5,7 @@
       "item": "minecraft:iron_pickaxe"
     },
     "title": "Iron Toolage!",
-    "description": "Collect all the iron tools!",
+    "description": "Collect all the iron tools and iron bars!",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -66,6 +66,16 @@
         "items": [
           {
             "item": "minecraft:flint_and_steel"
+          }
+        ]
+      }
+    },
+    "iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_bars"
           }
         ]
       }

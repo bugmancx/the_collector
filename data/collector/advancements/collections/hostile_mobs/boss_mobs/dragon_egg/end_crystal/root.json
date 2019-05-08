@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/hostile_mobs/boss_mobs/dragon_egg/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:end_crystal"
+    },
+    "title": "Summoner!",
+    "description": "Collect an End Crystal to summon back the dragon!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:end_crystal"
+          }
+        ]
+      }
+    }
+  }
+}

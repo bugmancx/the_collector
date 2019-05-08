@@ -10,12 +10,22 @@
     "announce_to_chat": true
   },
   "criteria": {
-    "stone_slab": {
+    "smooth_stone_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_slab"
+            "item": "minecraft:smooth_stone_slab"
+          }
+        ]
+      }
+    },
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:smooth_stone"
           }
         ]
       }
@@ -76,6 +86,56 @@
         "items": [
           {
             "item": "minecraft:stone_brick_stairs"
+          }
+        ]
+      }
+    },
+    "mossy_stone_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_stone_brick_slab"
+          }
+        ]
+      }
+    },
+    "mossy_stone_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_stone_brick_stairs"
+          }
+        ]
+      }
+    },
+    "mossy_stone_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mossy_stone_brick_wall"
+          }
+        ]
+      }
+    },
+    "stone_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_brick_wall"
+          }
+        ]
+      }
+    },
+    "stone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone_stairs"
           }
         ]
       }

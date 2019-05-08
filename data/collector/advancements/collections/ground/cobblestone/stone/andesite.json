@@ -1,0 +1,84 @@
+{
+  "parent": "collector:collections/ground/cobblestone/stone/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:andesite"
+    },
+    "title": "And A Sight for Sore Eyes!",
+    "description": "Collect andesite and all of its variations",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite"
+          }
+        ]
+      }
+    },
+    "andesite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite_slab"
+          }
+        ]
+      }
+    },
+    "andesite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite_stairs"
+          }
+        ]
+      }
+    },
+    "andesite_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:andesite_wall"
+          }
+        ]
+      }
+    },
+    "polished_andesite_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_andesite_slab"
+          }
+        ]
+      }
+    },
+    "polished_andesite_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_andesite_stairs"
+          }
+        ]
+      }
+    },
+    "polished_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_andesite"
+          }
+        ]
+      }
+    }
+  }
+}

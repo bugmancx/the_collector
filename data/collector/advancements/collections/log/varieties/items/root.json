@@ -5,7 +5,7 @@
       "item": "minecraft:stick"
     },
     "title": "Sticky situation!",
-    "description": "Collect all miscellaneous items made from wood",
+    "description": "Collect all miscellaneous items made from wood and bamboo",
     "show_toast": true,
     "announce_to_chat": true
   },
@@ -60,16 +60,6 @@
         ]
       }
     },
-    "oak_sign": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:oak_sign"
-          }
-        ]
-      }
-    },
     "trapped_chest": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -90,22 +80,32 @@
         ]
       }
     },
-    "bookshelf": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:bookshelf"
-          }
-        ]
-      }
-    },
     "fishing_rod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:fishing_rod"
+          }
+        ]
+      }
+    },
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      }
+    },
+    "scaffolding": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:scaffolding"
           }
         ]
       }

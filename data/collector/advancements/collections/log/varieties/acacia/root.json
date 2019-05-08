@@ -99,6 +99,16 @@
           }
         ]
       }
+    },
+    "acacia_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:acacia_sign"
+          }
+        ]
+      }
     }
   }
 }

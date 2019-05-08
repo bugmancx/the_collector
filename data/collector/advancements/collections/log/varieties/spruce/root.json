@@ -99,6 +99,16 @@
           }
         ]
       }
+    },
+    "spruce_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spruce_sign"
+          }
+        ]
+      }
     }
   }
 }

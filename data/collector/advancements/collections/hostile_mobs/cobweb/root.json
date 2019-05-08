@@ -1,0 +1,24 @@
+{
+  "parent": "collector:collections/hostile_mobs/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:cobweb"
+    },
+    "title": "I got shafted!",
+    "description": "Collect a cobweb",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "cobweb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobweb"
+          }
+        ]
+      }
+    }
+  }
+}

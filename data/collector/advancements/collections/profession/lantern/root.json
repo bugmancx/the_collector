@@ -1,0 +1,44 @@
+{
+  "parent": "collector:collections/profession/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lantern"
+    },
+    "title": "That's so lit!",
+    "description": "Collect a lantern, a campfire and a bell",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lantern"
+          }
+        ]
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:campfire"
+          }
+        ]
+      }
+    },
+    "bell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bell"
+          }
+        ]
+      }
+    }
+  }
+}
