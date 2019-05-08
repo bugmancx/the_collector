@@ -60,12 +60,12 @@
         ]
       }
     },
-    "sign": {
+    "oak_sign": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sign"
+            "item": "minecraft:oak_sign"
           }
         ]
       }
