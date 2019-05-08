@@ -2,7 +2,7 @@
 
 ## Description
 
-A Minecraft 1.13+ advancements datapack named "The Collector".
+A Minecraft 1.14+ advancements datapack named "The Collector".
 
 This datapack contains advancements after collecting every item in the game. Different advancements will appear after a player has collected all items that belong to a "collection". Each collection is a group of related items such as a collecting every sapling, every redstone item, every diamond armor type, etc.
 
