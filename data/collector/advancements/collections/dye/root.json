@@ -20,6 +20,16 @@
         ]
       }
     },
+    "black_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:black_dye"
+          }
+        ]
+      }
+    },
     "bone_meal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -30,22 +40,32 @@
         ]
       }
     },
-    "rose_red": {
+    "white_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:rose_red"
+            "item": "minecraft:white_dye"
           }
         ]
       }
     },
-    "cactus_green": {
+    "red_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:cactus_green"
+            "item": "minecraft:red_dye"
+          }
+        ]
+      }
+    },
+    "green_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:green_dye"
           }
         ]
       }
@@ -60,12 +80,32 @@
         ]
       }
     },
+    "brown_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brown_dye"
+          }
+        ]
+      }
+    },
     "lapis_lazuli": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    },
+    "blue_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_dye"
           }
         ]
       }
@@ -135,7 +175,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:dandelion_yellow"
+            "item": "minecraft:yellow_dye"
           }
         ]
       }
